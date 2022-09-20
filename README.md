@@ -1,5 +1,5 @@
 
-# Zesty-app
+# Portfolio-app
 
  I have used react hooks concept in this project and also use the new concept lottie-player concept for the annimation and clipy path is also used.
 
