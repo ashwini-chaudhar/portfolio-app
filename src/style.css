@@ -1,0 +1,361 @@
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald:wght@400;700&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Poppins:wght@300&family=Ubuntu:wght@300;400;500&display=swap");
+:root {
+  --primary-app-color: #02203c;
+  --secondary-app-color: #001528;
+  --standout-color: #fffb00;
+}
+span {
+  font-family: "Ubuntu";
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.herosection {
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  clip-path: polygon(0 0, 100% 0, 100% 87%, 49% 100%, 49% 100%, 0 86%);
+}
+.nav-item {
+  cursor: pointer;
+  color: white;
+  font-size: 1.3rem;
+  font-family: "Ubuntu", sans-serif;
+}
+/*font-family: 'Ubuntu', sans-serif;*/
+.brand-name {
+  font-family: "Oswald";
+  color: #fff;
+  font-size: 2rem;
+}
+.px-10 {
+  padding-inline: 90px;
+}
+.hero-section-2 {
+  padding-top: 60px;
+}
+.Im-text-section {
+  padding-top: 52px;
+  text-align: center;
+}
+.Im-text {
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+.name-Im-text {
+  color: var(--standout-color);
+  font-size: 28px;
+}
+.Im-text-subheading {
+  font-family: "Open sans";
+  color: #fff;
+  font-size: 1.4rem;
+}
+.Im-text-enthusiastic {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2.8rem;
+}
+.btn-hire-me {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+}
+.btn-hire-me:hover {
+  transform: translateY(-5px);
+  background-color: var(--standout-color);
+  color: #1c1c1c;
+}
+.btn-resume-me {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+  color: #fff;
+  background-color: red;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid white;
+  transition: all 0.3s ease-in-out;
+}
+.btn-resume-me:hover {
+  transform: translateY(-5px);
+}
+@keyframes Anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.cutome-img {
+  width: 300px;
+  border-radius: 50%;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+  border: solid 1px white;
+}
+/* about me sections*/
+.about-me-text {
+  font-family: "Ubuntu";
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.why-text-sub {
+  font-weight: 700;
+  font-size: 1.3rem;
+  opacity: 0.8;
+  text-transform: capitalize;
+  text-align: center;
+}
+.aboutme-inside {
+  width: 70%;
+  margin-inline: auto;
+}
+.some-text-about-me {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  text-align: justify;
+}
+.few-highlights {
+  font-family: "Ubuntu";
+  padding-block: 12px;
+}
+.few-text {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 900;
+  /* opacity: 0.8;
+  margin-top: 40px;
+  text-align: justify;*/
+}
+.few-list {
+  font-family: "Ubuntu";
+  font-size: 1.3rem;
+  text-align: start;
+}
+/* resume CSS */
+.resume-options-items {
+  width: 1%;
+  transition: all 0.3s ease-in-out;
+  padding-block: 24px;
+  padding-inline: 24px;
+  color: #000;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.resume-options-itmes:hover {
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  color: white;
+  width: 100%;
+}
+.icons-span {
+  margin-block: 24px;
+  margin-inline: 24px;
+  /* border: 2px solid green; */
+}
+.selected {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  width: 100%;
+  color: white;
+}
+.bg-new {
+  background: linear-gradient(
+    -45deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  color: white;
+}
+.resume-outer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: var(--primary-app-color);
+  color: white;
+  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
+}
+.resume-new-section {
+  margin-top: 42px;
+  background-color: white;
+  box-shadow: 10px 10px 31px 2px #1c1c1c;
+}
+/*contact me part */
+.contact-me-part {
+  color: #fff;
+}
+.relative-bg {
+  clip-path: polygon(0 5%, 100% 14%, 100% 80%, 0 96%);
+  background: linear-gradient(
+    -90deg,
+    var(--primary-app-color),
+    var(--secondary-app-color)
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -4;
+}
+.contact-inner-part {
+  padding-block: 118px;
+}
+.px-9 {
+  padding-inline: 90px;
+}
+.flex-rows {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-option-mobile {
+  display: none;
+}
+a{
+  text-decoration: none;
+}
+/* mobile view styling */
+@media all and (max-width: 786px) {
+  .flex-rows {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+  .navbar-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    transform: translateX(-700px);
+  }
+  .navbar-fixed-new {
+    position: fixed;
+    height: 100vh;
+    width: 60vw;
+    z-index: 33;
+    /*transform: translateX((-700px));*/
+  }
+  .px-9 {
+    padding-inline: 0px;
+  }
+  .px-10 {
+    padding-inline: 10px;
+  }
+  .nav-items {
+    padding-block: 20px;
+  }
+  .brand-name {
+    font-size: 1.4rem;
+    padding-inline: 22px;
+  }
+  .bars {
+    height: 4px;
+    width: 40px;
+    float: right;
+    z-index: 33;
+    background: #fff;
+    transform: translateY(30px);
+  }
+  .bars::before {
+    display: block;
+    position: relative;
+    top: 9px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background: #fff;
+  }
+  .bars::after {
+    display: block;
+    position: relative;
+    bottom: 12px;
+    content: "";
+    color: #fff;
+    width: 40px;
+    height: 4px;
+    background: #fff;
+  }
+  .navbar-option-mobile {
+    display: block;
+    width: 100vw;
+    height: 40px;
+    position: fixed;
+    z-index: 44;
+  }
+  .Im-text {
+    font-size: 1.2rem;
+  }
+  .name-Im-text {
+    font-size: 23px;
+  }
+  .Im-text-enthusiastic {
+    font-size: 2rem;
+  }
+  .Im-text-subheading {
+    font-size: 1.2rem;
+  }
+  .btn-hire-me {
+    font-size: 1rem;
+    padding: 5px 8px;
+    margin-block: 24px;
+  }
+  .btn-resume-me {
+    font-size: 1rem;
+    padding: 5px 8px;
+    margin-block: 24px;
+  }
+ /*about me section*/
+
+.about-me-text{
+  font-size: 2.7rem;
+}
+.why-text-sub{
+  font-size: 1rem;
+}
+.aboutme-inside{
+  width: 91%;
+}
+.lotti-1{
+  width: 500px;
+
+}
+ 
+.resume-new-section{
+  width: 100% !important;
+}
+/*contact me section*/
+
+}
