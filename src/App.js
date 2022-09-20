@@ -79,8 +79,8 @@ export default function App() {
             <div className="d-flex justify-content-center custom-div-outer-img">
             <img
                 className="img-fluid cutome-img"
-                alt="hero=image"
                 src="https://assets.3dtotal.com/plan1.tlevvm.jpg"
+                alt='heroimage'
               ></img>
             </div>
           </div>
