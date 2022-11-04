@@ -15,8 +15,8 @@ export default function Work  () {
           <ul>
             <li>Created a job portal for the website which drives heavy traffic using MEAN stack</li>
             <li>Created a job portal for the website which drives heavy traffic using MEAN stack</li>
-            <li>Created a job portal for the website which drives heavy traffic using MEAN stack</li>
-            <li>Created a job portal for the website which drives heavy traffic using MEAN stack</li>
+            <li>Created a Landing page using HTML, CSS, Javascript and Reactjs</li>
+            <li>Created a one portfolio portal Using HTML, CSS, Javascript, Bootstrap and Reactjs </li>
           </ul>
         </span>
       </div>

@@ -6,16 +6,16 @@ export default  function Programming () {
     percentage: 80,
   },
   {
-    text:"Node.Js",
+    text:"Bootstrap",
     percentage: 80,
   },
   {
-    text:"Paython",
+    text:"Reactjs",
     percentage: 80,
   },
   {
-    text:"MongoDB",
-    percentage: 80,
+    text:"Nodejs",
+    percentage: 60,
   }];
   
   return (
